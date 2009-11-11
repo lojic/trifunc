@@ -1,0 +1,277 @@
+/****************************************
+ * a
+ ****************************************/
+
+a {
+  color:   #3671b1;
+  margin:  0;
+  padding: 0;
+}
+
+div.footer a {
+  color: #ffffff;
+}
+
+div.links a {
+  font-size: 1.9em;
+}
+
+#menu a  {
+  color:           #ffffff;
+  font-size:       1.1em;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
+
+#menu a.highlight {
+  color: #70ff70;
+}
+
+/****************************************
+ * body
+ ****************************************/
+
+body {
+  background-color: #f5f6f7;
+  color:            #2f2f2f;
+  font-family:      helvetica, arial, sans-serif;
+  font-size:        12px;
+  margin:           0;
+  padding:          0;
+/*  text-align:       center; */
+}
+
+/****************************************
+ * .copyright
+ ****************************************/
+
+div.footer .copyright {
+  color: white;
+  font-size: 1.0em;
+}
+
+/****************************************
+ * div
+ ****************************************/
+
+div.container {
+  background-color: transparent;
+  margin:           0 auto 0 auto;
+  padding:          0;
+  width:            950px;
+}
+
+body.site div.container {
+  clear:      both;
+  text-align: left;
+  width:      700px;
+}
+
+body.site div.header div.container {
+  text-align: center;
+}
+
+div#why div.description {
+  float: left;
+  margin: 0 0 25px 10px;
+  width: 370px;
+}
+
+div.features {
+  margin-bottom: 15px;    
+}
+
+div.footer {
+  background-color: #283246;
+  border-top-color: #000000;
+  border-top-style: solid;
+  border-top-width: 1px;
+  clear:            both;
+  color:            #cccccc;
+  padding:          20px 0 40px 0;
+  text-align:       center;
+}
+
+div.header {
+  color:      white;
+  padding:    3px 0 5px 0;
+  text-align: center;
+}
+
+body.site div.header {
+  background-color: #283246;
+  font-size:        3.0em;
+/*  line-height:      2.7em; */
+}
+
+div.left {
+  padding: 10px 3px 10px 10px;
+  width:   450px;
+}
+
+div.links {
+  padding: 20px 0 0 0;
+}
+
+div.main {
+  font-size: 1.35em;
+  padding: 10px;
+}
+
+div.pitch {
+  background-image:    url(/images/home-screenshot.png);
+  background-position: right center;
+  background-repeat:   no-repeat;
+  height:              400px;
+  text-align:          left;
+}
+
+div.right {
+  float:   right;
+  margin-right: 20px;
+  padding: 10px;
+  width:   450px;
+}
+
+div.shaded {
+  background-color: #f0f0df;
+}
+
+div.step {
+  float: left;
+  width: 220px;
+}
+
+div.step_description {
+  background-color: #fffff0;
+  border:           5px solid #e3e3d4;
+  float:            left;
+  margin:           3px 0 20px 0;
+  padding:          10px;
+  width:            640px;
+}
+
+div.top {
+  background-color: #e8e8ef;
+  border-bottom:    1px solid #000077;
+}
+
+/****************************************
+ * h1
+ ****************************************/
+
+body.site h1 {
+  font-size: 2.5em;
+}
+
+body.site div.marketing h1 {
+  color: #1f1f1f;
+}
+
+div#pricing h1 {
+  font-size:     3.5em;
+  margin-bottom: 16px;
+  text-align:    center;    
+}
+
+/****************************************
+ * h2
+ ****************************************/
+
+body.site h2 {
+  font-family: georgia,times;
+  font-size:   1.8em;
+}
+
+div.marketing div.description h2 {
+  font-size: 1.7em;
+  margin:    0 0 5px 0;
+  padding:   0;
+}
+
+body.site div#how h2 {
+  font-size: 1.4em;
+  margin:    18px 0 0 0;
+}
+
+body.site div.features h2 {
+  color:       #222222;
+  font-family: georgia,times;
+  font-size:   22px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin:      0 0 20px 0;
+  padding:     0;
+}
+
+body.site div.pitch h2 {
+  color:     #222;
+  font-size: 3.0em;
+}
+
+/****************************************
+ * h3
+ ****************************************/
+
+div.feature_list h3 {
+  color:     #101070;
+  padding:   0;
+  margin:    10px 0 3px 0;
+}
+
+/****************************************
+ * img
+ ****************************************/
+
+body.site div.header img {
+  border:     none;
+}
+
+/****************************************
+ * p
+ ****************************************/
+
+div.marketing p {
+  font-family: georgia,times;
+  font-size:   1.45em;
+  padding:     0;
+  margin:      0;
+}
+
+div.feature_list p {
+  padding: 0 8px 0 4px;
+  margin:  0;
+}
+
+div#how div.step_description p {
+  font-family: georgia,times;
+  font-size:   1.4em;
+  margin:      0 0 9px 0;
+  padding:     0;
+}
+
+div.marketing div.description p {
+  margin: 0 0 10px 0;
+}
+
+/****************************************
+ * .separator
+ ****************************************/
+
+.header .separator {
+  color:         #a0a0a0;
+  font-size:     1.1em;
+  padding-left:  5px;
+  padding-right: 5px;
+}
+
+/****************************************
+ * td
+ ****************************************/
+
+td {
+  text-align: left;
+}
