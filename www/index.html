@@ -1,14 +1,14 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
   <head profile="http://www.w3.org/2005/10/profile">
-    <title>Functional Programming Languages - Raleigh, Durham, Chapel Hill, Research Triangle Park, NC</title>
+    <title>Functional Programming Languages - Raleigh, Durham, Chapel Hill, Research Triangle Park, RTP, NC</title>
     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
     <meta name="keywords" content="programming, functional programming, programming languages, functional programming languages, triangle, research triangle, research triangle park, north carolina, nc, apex, cary, chapel hill, durham, morrisville, raleigh, wake forest, arc, clojure, common lisp, erlang, haskell, javascript, ocaml, sml, python, ruby, scala, scheme">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="site.css" media="all" rel="stylesheet" type="text/css">
     <style type="text/css">
       #logo { float: left; }
-      #trifunc { float: left; font-family: georgia,times; font-size: 1.3em; }
+      #trifunc { margin-left: 15px; float: left; font-family: georgia,times; font-size: 1.3em; }
     </style>
   </head>
   <body class="site">
@@ -46,11 +46,48 @@
     <div class="container shaded">
       <div class="main">
         <div style="background-color: #ffe; border: 4px solid #ccc; padding: 7px;">
-          Our next meeting is a SICP study group meeting - <strong>February 23 at 6:30 pm. @ Panera Bread in Brier Creek</strong>.
-          <br>
-          <br>
-          Our next <em>regular</em> TriFunc meeting will be March 9 at 7:00 pm. (location TBD). David Cabana will be discussing
-          "If monads are the answer, what was the question?" There will be a SICP study group after the meeting.<br>
+          <p>
+            Our next meeting is <strong>March 9 at 7 pm. (location TBD)</strong>.
+          </p>
+          <p>
+            David Cabana will present, <strong>"If monads are the
+            answer, what was the question?"</strong>
+          </p>
+          <p>
+            The premise of the talk is that the best way to understand
+            a tool is to understand the problem the tool is intended
+            to solve.  Monads are tools. What I want to do is to set
+            up a simple programming problem which we will solve with
+            real working code.  By generalizing the solution to that
+            problem we will have a context in which to define what a
+            monad is, and how it can be used.
+          </p>
+          <p>
+            The intended audience is programmers with an interest in
+            functional programming. Notice I said interest, not
+            necessarily expertise. I will cover some basics (what a
+            function is, what it means to compose functions) as part
+            of setting up the problem to be solved.
+          </p>
+          <p>
+            Some points that may be of interest:
+          </p>
+          <ul>
+            <li>
+              No Haskell will be used.  The code I'll present will be
+              in Clojure, but the code is brief and easily
+              translatable into any language capable of
+              passing/returning functions as values.  I'll put the
+              code and slides online.
+            </li>
+            <li>
+              No lambda calculus. No category theory.  A little bit of
+              high school algebra: it would be helpful to be recall a
+              fact about logarithms: log(a*b) = log(a) + log(b).  If
+              you don't see how that is relevant to monads, come on in
+              and find out.
+            </li>
+          </ul>
           <!--
           <p style="padding-left: 15px; font-size: 0.90em;">
             Viget Labs<br>
@@ -109,7 +146,7 @@
     </div>
       
     <div class="footer">
-      <span class="copyright">Copyright 2009-2010 - TriFunc.org (last updated: 2010/02/08)</span>
+      <span class="copyright">Copyright 2009-2010 - TriFunc.org (last updated: 2010/02/22)</span>
     </div>
 
 <script type="text/javascript">
