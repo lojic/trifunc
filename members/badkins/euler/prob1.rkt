@@ -14,8 +14,6 @@
   (define (sum-5 n accum)
     (if (>= n limit)
         accum
-        ; Exclude multiples of 5 that are also multiples of 3 since
-        ; they will have been summed in the sum-3 function.
         (sum-5 (+ 5 n) 
                (+ (if (= 0 (remainder n 3)) 0 n) 
                   accum))))
