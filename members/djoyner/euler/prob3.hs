@@ -1,14 +1,14 @@
 #!/usr/bin/env runhaskell
 
-sieve x
-  | x < 2     = []
-  | otherwise = go [2..x]
+isPrime x
+  | x < 2 = False
+  | otherwise = not $ any (\y -> x `mod` y == 0) $ takeWhile (<= sqrtX) primes
   where
-    go []     = []
-    go (p:[]) = [p]
-    go (p:ps) = p : go [ y | y <- ps, y `mod` p /= 0 ]
+    sqrtX = floor $ sqrt $ fromIntegral x
 
-factors x = go x $ sieve x
+primes = 2 : filter isPrime [3,5..]
+
+factors x = go x $ takeWhile (<= x) primes
   where
     go 1 _                         = []
     go v []                        = []
