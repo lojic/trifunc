@@ -53,4 +53,4 @@
                 (cdr lst))))))
           
 (display 
- (prob8 (take digits 1000) 13))
+ (prob8 digits 13))
