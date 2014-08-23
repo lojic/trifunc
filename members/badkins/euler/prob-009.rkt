@@ -24,10 +24,10 @@
 
 (for* ([a (in-range 1 333)]
        [b (in-range (+ a 1) (/ (- 1000 a) 2))])
-  (let ([c (sqrt (+ (* a a) (* b b)))])
-    (when (and (integer? c)
-               (= 1000 (+ a b c)))
+  (let ([c (- 1000 a b)])
+    (when (= (+ (* a a) (* b b)) (* c c))
       (display (* a b c)))))
+
 
 
       
