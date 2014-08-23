@@ -18,8 +18,8 @@
 
 ;; A few notes:
 ;; 1) Since a + b + c <= 1000 and a < b < c, the most a can be is 332
-;; 2) Since a < b, the beginning range of b is a + 1
-;; 3) Since b < c, the end of the range of b is (1000 - 1) / 2
+;; 2) Since a < b, the beginning of the range of b is a + 1
+;; 3) Since b < c, the end of the range of b is (1000 - a) / 2
 ;; 4) The range specified by in-range is [ start, end )
 
 (for* ([a (in-range 1 333)]
