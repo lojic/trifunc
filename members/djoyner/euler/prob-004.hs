@@ -1,5 +1,3 @@
-#!/usr/bin/env runhaskell
-
 palindromic x = xs == reverse xs
   where xs = show x
 

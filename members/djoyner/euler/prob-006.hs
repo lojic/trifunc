@@ -1,5 +1,3 @@
-#!/usr/bin/env runhaskell
-
 main = print $ sqSum - sumSqs
   where
     sqSum = (sum [1..n])^2
